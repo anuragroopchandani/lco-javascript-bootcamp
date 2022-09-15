@@ -1,0 +1,143 @@
+body{
+    font-family: 'Poppins';
+}
+h1{
+    font-family: 'Fredoka One';
+    font-size: 3.5em;
+    line-height: 0;
+}
+button{
+    padding: 10px 20px;
+    background-color: #fe5e35;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+/* nav, .intro-section{
+    width: 85%;
+    margin: 0px auto;
+} */
+nav img,.nav-items, .nav-item, .left-section, .right-section{
+    display: inline-block;
+}
+nav img{
+    width: 20%;
+    vertical-align: middle;
+}
+.nav-items{
+    vertical-align: middle;
+    width: 59%;
+    text-align: center;
+}
+nav img, .nav-items{
+    vertical-align: middle;
+}
+nav img:nth-child(1){
+    width: 100px;
+    margin-left: 80px;
+}
+nav img:nth-child(3){
+    width: 300px;
+}
+.nav-item{
+    margin: 0px 20px;
+    font-size: 1.1em;
+}
+
+
+.sub-headlines{
+    padding-top:20px ;
+}
+.active-item{
+    color: #fe5e35;
+}
+
+.left-section{
+    width: 44%;
+    vertical-align: top;
+    padding-left: 80px;
+}
+.left-section h3 img{
+    width: 30px;
+}
+.sub-headline{
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+.sub-headline img{
+    background-color: #fe5e35;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 10px;
+    
+}
+
+.text{
+    word-wrap: normal;
+    color: grey;
+}
+
+.action-btns button{
+    margin: 20px;
+    font-size: 1.25em;
+}
+.headphone-div{
+    position: relative;
+    top:0px ;
+}
+img[alt="headphone"]{
+    width: 75%;
+}
+
+.discount{
+    position: absolute;
+    z-index: 5;
+    bottom: 50px;
+    left: 30px;
+}
+.discount-content{
+    position: absolute;
+    z-index: 6;
+    bottom: 90px;
+    left: 70px;
+    text-align:center;
+}
+.discount-content h4, .discount-content h1{
+    color: white;
+    text-align: center;
+}
+
+
+.left-section h3{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.dots{
+    text-align: center;
+}
+.dot{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+}
+.yellow-dot{
+    background-color: #fbd104;
+}
+.tomato-dot{
+    background-color: #fe5e35;
+}
+.black-dot{
+    background-color: #000000;
+}
+.action-btn{
+    margin-top: 20px;
+    font-size: 1.25em;
+}
+.right-section{
+    text-align: center;
+    width: 49%;
+}

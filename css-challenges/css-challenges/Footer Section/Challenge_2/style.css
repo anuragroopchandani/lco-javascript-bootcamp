@@ -1,0 +1,155 @@
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 99%;
+    color: #ffffff;
+    background-color: #130b58;
+}
+.content{
+    position: relative;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.top{
+    border-bottom: 2px solid #afafb5;
+    position: relative;
+    padding: 30px;
+}
+.logo_name, .fa-slack{
+    font-size: 30px;
+}
+.logo-details{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translate(0%,-50%);
+}
+
+.media-icons{
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translate(0%,-50%);
+}
+
+li{
+    list-style: none;
+    color: #d0cede;
+}
+
+.link-boxes{
+  width: 90%;
+  margin: 0px auto;
+}
+.box{
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+}
+
+.bottom-details{
+    background: #0e0840;
+    padding: 20px;
+    color: #9290a9;
+}
+
+.copyright_text{
+    position: absolute;
+    left: 100px;
+    transform: translate(0%,-50%);
+}
+.copyright_text a{
+    color: #9290a9;
+}
+
+.policy_terms{
+    position: absolute;
+    right: 100px;
+    transform: translate(0%,-50%);
+}
+
+input[type=text]{
+    background-color: #130b58;
+    padding: 5px;
+    border: solid 2px #afafb5;
+    border-radius: 5px;
+    width: 195px;
+
+}
+
+input::placeholder{
+    color: #afafb5;
+}
+
+input[type=button]{
+    
+    margin-top: 10px;
+    padding: 5px;
+    width: 210px;
+    color: #130b58;
+    font-weight: bold;
+    background-color: #d0cede;
+    border-color: solid 0px #d0cede;
+    border-radius: 5px;
+}
+
+
+
+.link_name{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px 0px 5px 0px;
+    display: inline-block; 
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+.link_name:before {
+    border-top: 3px solid #ffffff;
+    display: block;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 50%;
+    bottom: -3px;
+    width: 50%;
+  }
+  .policy_terms a{
+    padding: 0px 10px;
+    color: #9290a9;
+  }
+
+  
+  .media-icons .fab{
+    width: 30px;
+    height: 23px;
+    border: 0px solid;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 7px;
+  }
+  
+  .fa-facebook-f{
+    background-color: #4a66ad;
+    
+  }
+
+  .fa-twitter{
+    background-color: #4d9feb;
+  }
+
+  .fa-instagram{
+    background-color: #cf416d;
+  }
+
+  .fa-linkedin-in{
+    background-color: #3375b0;
+  }
+
+  .fa-youtube{
+    background-color:#ea3323 ;
+  }

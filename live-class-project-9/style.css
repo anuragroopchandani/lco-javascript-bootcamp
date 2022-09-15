@@ -1,0 +1,298 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  
+}
+.companies, .api, .cards, .blog-heading, .blog-cards{
+  background-color: #f8f8fa;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: #4617fe;
+  white-space: nowrap;
+  
+}
+nav{
+  padding: 20px 40px 0px;
+  text-align: right;
+}
+.nav-item{
+  margin: 0px 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: lighter;
+}
+
+.nav-item-active{
+  margin: 0px 10px;
+  cursor: pointer;
+  color: #4617fe;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: lighter;
+}
+
+.logo{
+  padding: 20px 40px 0px;
+}
+
+.header-text{
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding-left:40px;
+  box-sizing: border-box;
+  padding-top: 125px;
+  color: white;
+}
+.header-text + div{
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+.header-text h2{
+  font-size: 45px;
+  padding: 0px;
+  margin: 0px;
+}
+.header-text p{
+  font-size: 20px;
+}
+.header-image{
+  position: relative;
+  top: 60px;
+}
+
+.companies{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.companies a{
+  font-family: "Righteous", sans-serif;
+  text-decoration: none;
+  color: black;
+  width: 12%;
+  padding:20px 40px;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 500;
+
+}
+
+
+.api{
+  padding:20px 40px;
+}
+.api-heading{
+  font-size: 2.5em;
+}
+
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.cards::after{
+  content: "❯";
+  width: 28px;
+  height: 28px;
+  background-color: #4617fe;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: 80px;
+}
+.cards .card{
+  box-sizing: border-box;
+  padding: 10px 15px;
+}
+
+.cards .card-active{
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.blog-heading{
+  padding:20px 40px;
+  font-size: 1.25em;
+  position: relative;
+}
+.blog-heading::after{
+  content: 'See All Atricle';
+  position: absolute;
+  padding:20px 40px;
+  top: 50px;
+  right: 0px;
+  font-weight: bold;
+  color: #4617fe;
+}
+
+.blog-cards{
+  display: flex;
+  flex-direction: row;
+  padding:20px 40px 50px 40px;
+}
+.blog-cards .blog-card{
+  flex-grow: 1;
+  position: relative;
+}
+.blog-bottom, .blog-author{
+  position: absolute;
+  bottom: 0px;
+}
+.blog-bottom{
+  right:250px;
+  bottom: -20px;
+}
+.blog-author{
+  right:20px;
+  display: inline-block;
+  width: 150px;
+  bottom: 5px;
+}
+.blog-card{
+  display: flex;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.blog-content{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5px 60px;
+  background-color: white;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+
+.faq-section{
+  display: flex;
+  flex-direction: row;
+  background-color: #e9edff;
+}
+.faq-content{
+  box-sizing: border-box;
+  padding:20px 0px 20px 40px;
+  
+}
+.faq-content button{
+  background-color: #4617fe;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.faq-content, .faq-image{
+  flex-grow: 1;
+}
+.faq-content h2{
+  font-size: 2.5em;
+}
+.faq-image img{
+  width: 100%;
+  height: 100%;
+}
+.download-section{
+  display: flex;
+  flex-direction: row;
+  padding:20px 0px 20px 40px;
+  align-items: center;
+}
+.download-section div{
+  flex-grow: 1;
+}
+.download-content span{
+  font-weight: normal;
+}
+.download-email form{
+  background-color: #e9edff;
+  border-radius: 30px;
+  padding: 3px;
+  width: 78%;
+}
+.download-email form input{
+  width: 70%;
+  padding: 15px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: #e9edff;
+  border: none;
+}
+.download-email form input::placeholder{
+  padding-left: 20px;
+  font-weight: bold;
+}
+.download-email form button{
+  background-color: #4617fe;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+}
+
+.footer-section{
+  display: flex;
+  flex-direction: row;
+  background-color: #4617fe;
+  padding:50px 40px;
+}
+.footer-section div{
+  flex-grow: 1;
+}
+.footer-left .list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 0px;
+}
+.footer-left .list .list-items{
+  padding: 0px 10px;
+  border-right: 2px solid white;
+  color: white;
+}
+
+.footer-left .list .list-items:first-child{
+  border-right: none;
+}
+.footer-left .list .list-items:last-child{
+  border-right: none;
+}
+
+.footer-right{
+  text-align: right;
+}
+.footer-logos{
+  padding: 3px 10px;
+}
+.footer-right .logos-list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+  
+  
+}
+.footer-right .logos-list .list-items{
+  padding: 0px 10px;
+  border-right: 2px solid white;
+  color: white;
+}
+.footer-right .logos-list .list-items:last-child{
+  border-right: none;
+}

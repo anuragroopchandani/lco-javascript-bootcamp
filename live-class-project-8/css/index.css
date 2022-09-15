@@ -1,0 +1,75 @@
+body{
+    background: url("../images/backcover.svg");
+    background-position: top right;
+    background-size: 58%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto';
+}
+.main-div{
+    width: 85%;
+    margin: 40px auto 100px;
+}
+nav > *, .nav-items > *{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+nav img, nav button{
+    width: 10%;
+    text-align: center;
+}
+.nav-items{
+    width: 79%;
+    text-align: center;
+}
+.nav-items .nav-item{
+    margin: 0px 15px;
+    color: #1f2873;
+}
+.left-section{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.left-section h1{
+    color:#3e4794;
+    font-size: 4em;
+    margin-top: 130px;
+
+}
+.imgs-div{
+    display: inline-block;
+    position: relative;
+    width: 59%;
+    vertical-align: top;
+}
+
+img[alt="intro-img"]{
+    max-width: 100%;
+}
+
+.vector-img{
+    position: absolute;
+    bottom: 55px;
+}
+.vector-dot{
+    position: absolute;
+    bottom: 135px;
+    left: 55px;
+}
+
+button{
+    background-image: linear-gradient(to right, #965cf2, #ff8bdd);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.signin-btn{
+    padding: 10px;
+}
+.learn-more-btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.5em;
+}

@@ -1,0 +1,110 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("../images/green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+header,section{
+    margin: 0px 40px;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar .header-options{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    border-bottom: 2px solid white;
+    align-items: center;
+}
+
+.nav-bar .header-phone{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+.main-content h1{
+    font-size: 40px;
+}
+.main-content button{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background: none;
+    border: solid 2px white;
+    border-radius: 20px;
+    color: white;
+}
+
+.data-section1{
+    background: linear-gradient( rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25) );
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 250px;
+}
+.symbol1::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 70px;
+    bottom: -70px;
+    right: 50px;
+    background: white;
+}
+.symbol1::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    bottom: -80px;
+    right: 40px;
+    background: white;
+}
+
+
+
+
+.data-section2{
+    background: linear-gradient( rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25) );
+    position: absolute;
+    right: 350px;
+    top: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 250px;
+}
+.symbol2::before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    bottom: 80px;
+    right: -70px;
+    background: white;
+}
+.symbol2::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    bottom: 70px;
+    right: -80px;
+    background: white;
+}

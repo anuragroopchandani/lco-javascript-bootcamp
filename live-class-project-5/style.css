@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+}
+
+[aria-label="navbar"]{
+    background-color: black;
+    color: white;    
+}
+.navbar{
+    width: 85%;
+    margin: 0px auto;
+    
+}
+.navbar div{
+    display: inline-block;
+}
+.navbar div:nth-child(1){
+    width: 16%;
+    
+}
+.navbar div:nth-child(1) img{
+    margin-top: 20px;
+    height: 40px;
+}
+.navbar div:nth-child(3){
+    width: 68%;
+}
+.navbar div:nth-child(4){
+    width: 10%;
+    vertical-align: top;
+    margin-top: 25px;
+}
+.button-small{
+    
+    background-color: #ba0cc5;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+.line{
+    border: solid 1px white;
+    height: 30px;
+}
+.grow-list{
+    vertical-align: top;
+    margin-top: 12px;
+}
+.grow-list li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 20px;
+}
+.grow-list li:nth-child(1)::after{
+    content:"\02C7";
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    height: 11px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+[aria-label="hero"]{
+    margin: 0px;
+    padding: 0px;
+    background: url("./assets/bg.png");
+    padding-bottom: 310px;
+}
+.hero{
+    text-align: center;
+    padding: 50px;
+}
+.hero-heading{
+    font-size: 5em;
+    width: 70%;
+    margin: 130px auto 20px;
+    color: white;
+}
+.hero-description{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+.button-large{
+    background: #ba0cc5;
+    border:none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 50px;
+}

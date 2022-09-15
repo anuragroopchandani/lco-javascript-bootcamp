@@ -1,0 +1,154 @@
+.container{
+    position: relative;
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'Orbitron';
+}
+.navbar-container{
+    margin-top: 30px;
+}
+.navbar-container  div{
+    display: inline-block;
+}
+.navbar-container  div img{
+    position: relative;
+    top: 10px;
+    width: 100px;
+    
+}
+.list{
+    list-style: none;
+    margin-left: 100px;
+}
+.list-item{
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: 500;
+}
+.list-item:nth-child(1){
+    font-weight: 700;
+}
+.list-item:nth-child(1)::after{
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin: 0px auto;
+    display: block;
+}
+
+.button-group{
+    margin-left: 200px;
+}
+
+.search-icon{
+    position: relative;
+    top: 12px;
+}
+
+.search-icon svg{
+    width: 20px;
+}
+
+.nav-button{
+    background: none;
+    padding: 5px 25px;
+    font-family: 'Poppins';
+    margin-left: 10px;
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+
+
+.hero-container{
+    position: relative;
+    top: 25px;
+}
+.hero-container-right{
+    position: absolute;
+    width: 60%;
+    left: 40%;
+    top: 160px;
+}
+.globe{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform:translateX(-50%)
+}
+.star{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.square{
+    position: absolute;
+    width: 50%;
+    top: 135px;
+    right: 44%;
+}
+.square>img{
+    width: 50%;
+}
+.globe + div{
+    position: absolute;
+    width: 50%;
+    
+}
+.globe + div img{
+    width: 50%;
+    
+}
+
+
+.hero-heading{
+    font-size: 45px;
+}
+.hero-description{
+    font-family: 'Poppins';
+    font-size: 12px;
+    text-align: center;
+    width: 85%;
+    margin: 10px auto;
+}
+.hero-description + div, .hero-description + div + div{
+    text-align: center;
+    margin-top: 60px;
+}
+.button-email{
+    font-family: 'Orbitron';
+    background: none;
+    padding: 5px 25px;
+    margin-left: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.button-join{
+    font-family: 'Orbitron';
+    background: none;
+    padding: 5px;
+    margin-left: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    background: black;
+}
+
+.contact-heading{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icons span{
+    margin: 0px 10px;
+}
+.icons span img{
+    width: 30px;
+}
